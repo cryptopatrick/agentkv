@@ -1,0 +1,27 @@
+[package]
+name = "agentkv"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = ""Interface for agent key-value persistence.""
+documentation = "https://docs.rs/agentkv"
+homepage = "https://github.com/cryptopatrick/agentkv"
+repository = "https://github.com/cryptopatrick/agentkv"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "agentkv"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
